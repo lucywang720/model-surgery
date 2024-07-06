@@ -47,7 +47,7 @@ bash download_data.sh
 #### Pip installation
 
 ```python
-git clone https://github.com/your-username/model-surgery.git
+git clone https://github.com/lucywang720/model-surgery.git
 cd model-surgery
 conda create -n sugery python=3.9
 conda activate sugery
