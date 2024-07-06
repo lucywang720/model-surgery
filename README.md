@@ -98,5 +98,5 @@ probe training process heavily borrows from this[PPLM](https://github.com/uber-r
 
 ## Contact
 
-The code in this repository has been reorganized. Errors that may arise during the organizing process could lead to code malfunctions or discrepancies from the original research results. If you encounter any problems, please raise issues. I will go and fix these bugs.
+The code in this repository is reorganizing. Errors that may arise during the organizing process could lead to code malfunctions or discrepancies from the original research results. If you encounter any problems, please raise issues. I will go and fix these bugs.
 For any questions or feedback, please open an issue or contact the author: wang-hq23@mails.tsinghua.edu.cn
