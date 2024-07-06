@@ -47,7 +47,8 @@ bash download_data.sh
 #### Pip installation
 
 ```python
-git clone ...
+git clone https://github.com/your-username/model-surgery.git
+cd model-surgery
 conda create -n sugery python=3.9
 conda activate sugery
 pip install -r requirements.txt
@@ -87,10 +88,15 @@ bash scripts/eval.sh
 
 For quick experimentation, you can use our pre-trained behavior probes offered in ./checkpoint.
 
+## Credits
+
+heavily borrows from this. Evaluation tools heavily borrows from this[open-instruct](https://github.com/allenai/open-instruct)
+
 ## Citation
 
 
 
 ## Contact
 
+The code in this repository has been reorganized. Errors that may arise during the organizing process could lead to code malfunctions or discrepancies from the original research results. If you encounter any problems, please raise issues. I will go and fix these bugs.
 For any questions or feedback, please open an issue or contact the author: wang-hq23@mails.tsinghua.edu.cn
