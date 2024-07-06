@@ -90,7 +90,7 @@ For quick experimentation, you can use our pre-trained behavior probes offered i
 
 ## Credits
 
-probe training process heavily borrows from this[PPLM](https://github.com/uber-research/PPLM). Evaluation tools heavily borrows from this [open-instruct](https://github.com/allenai/open-instruct), [dpo_toxic](https://github.com/ajyl/dpo_toxic) and [eval-safety](https://github.com/CrystalEye42/eval-safety/tree/main).
+probe training process heavily borrows from this [PPLM](https://github.com/uber-research/PPLM). Evaluation tools heavily borrows from this [open-instruct](https://github.com/allenai/open-instruct), [dpo_toxic](https://github.com/ajyl/dpo_toxic) and [eval-safety](https://github.com/CrystalEye42/eval-safety/tree/main).
 
 ## Citation
 
