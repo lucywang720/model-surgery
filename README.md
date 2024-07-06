@@ -6,7 +6,7 @@ link
 
 $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon University.
 
-![截屏2024-07-06 下午9.37.12](/Users/lucy/Library/Application Support/typora-user-images/截屏2024-07-06 下午9.37.12.png)
+[pic]
 
 ## Main Results
 
@@ -24,7 +24,7 @@ We introduce a novel approach called "model surgery" that modulates LLM behavior
 
 We demonstrate the effectiveness of our approach on tasks including detoxification, jailbreak resistance, and attitude adjustment.
 
-![截屏2024-07-06 下午9.38.58](/Users/lucy/Library/Application Support/typora-user-images/截屏2024-07-06 下午9.38.58.png)
+[pic]
 
 ## Setup
 
