@@ -6,7 +6,7 @@ link
 
 $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon University.
 
-[pic]
+![main](/pic/main.png)
 
 ## Main Results
 
@@ -24,19 +24,23 @@ We introduce a novel approach called "model surgery" that modulates LLM behavior
 
 We demonstrate the effectiveness of our approach on tasks including detoxification, jailbreak resistance, and attitude adjustment.
 
-[pic]
+![toxic](/pic/toxic.png)
+
+![jail](/pic/jail.png)
+
+![att](/pic/att.png)
+
 
 ## Setup
 
 #### Model downloading
 
-LLaMA2-7B git clone https://huggingface.co/meta-llama/Llama-2-7b-hf
-
-LLaMA2-7B-Chat git clone https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
-
-CodeLLaMA-7B git clone https://huggingface.co/meta-llama/CodeLlama-7b-hf
-
-Mistral-7B-v0.1 git clone https://huggingface.co/mistralai/Mistral-7B-v0.1
+| Model           | Download                                             |
+| --------------- | ---------------------------------------------------- |
+| LLaMA2-7B       | https://huggingface.co/meta-llama/Llama-2-7b-hf      |
+| LLaMA2-7B-Chat  | https://huggingface.co/meta-llama/Llama-2-7b-chat-hf |
+| CodeLLaMA-7B    | https://huggingface.co/meta-llama/CodeLlama-7b-hf    |
+| Mistral-7B-v0.1 | https://huggingface.co/mistralai/Mistral-7B-v0.1     |
 
 #### Data Preparation
 
@@ -68,6 +72,12 @@ This step trains a linear classifier to identify specific behaviors in the LLM's
 bash scripts/training.sh
 ```
 
+or 
+```python
+python -m train --data_path jigsaw.txt --save_model --pretrained_model llama2 --epochs 20 --learning_rate 0.0001 --output_fp probe_llama --batch_size 32
+```
+
+
 #### Model Surgery
 
 Using the extracted probe, this step modifies selected model parameters to shift behavior. You may need to add your own probe path to the scripts.
@@ -75,10 +85,19 @@ Using the extracted probe, this step modifies selected model parameters to shift
 ```python
 bash scripts/modify.sh
 ```
+or 
+```python
+python -m modify \
+    --save_dir llama2-non-toxic \
+    --model_name_or_path llama2  \
+    --alpha $alpha \
+    --toxic_path probe.pt \
+    --save_model
+```
 
 #### Evaluation
 
-Assess the performance of the modified model on various tasks to ensure behavior change and capability preservation.
+Assess the performance of the modified model on various tasks to ensure behavior change and capability preservation. We offer one-click running scripts.
 
 ```python
 bash scripts/eval.sh
