@@ -8,6 +8,8 @@ $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon 
 
 ![main](/pic/main.png)
 
+<font color="red"> 123 </font>
+
 ## Main Results
 
 Large Language Models (LLMs) have shown great potential as AI assistants, but ensuring their safety and reliability remains a challenge. Current methods for aligning LLM behavior, such as Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF), are computationally expensive and can degrade model performance.
