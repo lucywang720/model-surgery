@@ -8,7 +8,7 @@ $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon 
 
 ![main](/pic/main.png)
 
-:warning :warning :warning: *Due to server issues, we will open-source the code and checkpoint in the coming days. Stay tuned!*
+:warning: :warning: :warning: *Due to server issues, we will open-source the code and checkpoint in the coming days. Stay tuned!*
 
 ## Main Results
 
