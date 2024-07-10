@@ -8,7 +8,7 @@ $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon 
 
 ![main](/pic/main.png)
 
-<font color="red"> 123 </font>
+** 123 **
 
 ## Main Results
 
