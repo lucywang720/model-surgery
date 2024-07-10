@@ -28,11 +28,6 @@ We demonstrate the effectiveness of our approach on tasks including detoxificati
 
 ![toxic](/pic/toxic.png)
 
-![jail](/pic/jail.png)
-
-![att](/pic/att.png)
-
-
 ## Setup
 
 #### Model downloading
