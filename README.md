@@ -28,6 +28,10 @@ We demonstrate the effectiveness of our approach on tasks including detoxificati
 
 ![toxic](/pic/toxic.png)
 
+One example of our method: 
+
+![example](/pic/example.png)
+
 ## Setup
 
 #### Model downloading
