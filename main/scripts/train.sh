@@ -1,0 +1,1 @@
+python -m run_pplm_discrim_train --dataset=toxic --dataset_fp datasets/go_emotions/go_emotion.txt --save_model --pretrained_model models--mistralai--Mistral-7B-v0.1/snapshots/26bca36bde8333b5d7f72e9ed20ccda6a618af24 --epochs 15  --output_fp save_path --batch_size 16 --layer 31
