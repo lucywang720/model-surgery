@@ -8,8 +8,6 @@ $^1$ Department of Automation, BNRist, Tsinghua University $^2$ Carnegie Mellon 
 
 ![main](/pic/main.png)
 
-:warning: :warning: :warning: *Due to server issues, we will open-source the code in the coming days. Stay tuned!*
-
 ## Main Results
 
 Large Language Models (LLMs) have shown great potential as AI assistants, but ensuring their safety and reliability remains a challenge. Current methods for aligning LLM behavior, such as Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF), are computationally expensive and can degrade model performance.
@@ -118,5 +116,5 @@ probe training process heavily borrows from this [PPLM](https://github.com/uber-
 
 ## Contact
 
-The code in this repository is still reorganizing. Errors that may arise during the organizing process could lead to code malfunctions or discrepancies from the original research results. If you encounter any problems, please raise issues. I will go and fix these bugs.
+The code in this repository is still being reorganized. Errors that may arise during the organizing process could lead to code malfunctions or discrepancies from the original research results. If you encounter any problems, please raise issues. I will go and fix these bugs.
 For any questions or feedback, please open an issue or contact the author: wang-hq23@mails.tsinghua.edu.cn
