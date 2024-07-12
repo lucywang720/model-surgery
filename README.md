@@ -106,7 +106,7 @@ bash scripts/eval.sh
 
 #### Released Checkpoints
 
-For quick experimentation, you can use our pre-trained behavior probes offered in ./checkpoint.
+For quick experimentation, you can use our pre-trained behavior probes offered in ./main/modification/checkpoint.
 
 ## Credits
 
