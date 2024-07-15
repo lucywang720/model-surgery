@@ -112,6 +112,7 @@ probe training process heavily borrows from this [PPLM](https://github.com/uber-
 
 ## Citation
 
+```python
 @misc{wang2024modelsurgerymodulatingllms,
       title={Model Surgery: Modulating LLM's Behavior Via Simple Parameter Editing}, 
       author={Huanqian Wang and Yang Yue and Rui Lu and Jingxin Shi and Andrew Zhao and Shenzhi Wang and Shiji Song and Gao Huang},
@@ -121,6 +122,7 @@ probe training process heavily borrows from this [PPLM](https://github.com/uber-
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2407.08770}, 
 }
+```
 
 ## Contact
 
