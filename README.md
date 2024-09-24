@@ -44,7 +44,7 @@ One example of our method:
 #### Data Preparation
 
 ```python
-bash download_data.sh
+bash scripts/prepare_eval_data.sh
 ```
 
 #### Pip installation
